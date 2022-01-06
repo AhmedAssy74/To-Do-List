@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Shizuru&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <!-- //////////////  -->
+  <body>
+    <div class="container">
+      <h1><span>TO</span><span class="do"> DO</span> LIST</h1>
+
+      <div class="todo-container">
+        <div class="add-task">
+          <input type="text" name="" id="" />
+          <span>+</span>
+        </div>
+        <div class="task-content">
+          <span class="no-task-message">No Task To Show </span>
+        </div>
+      </div>
+
+      <!-- ///////////////// -->
+      <div class="task-stats">
+        <div class="tasks-count">Tasks <span> 0</span></div>
+        <div class="tasks-completed">Completed <span> 0</span></div>
+        <span class="delete-all">Delete All</span>
+        <span class="finish-all">Finish All</span>
+      </div>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
